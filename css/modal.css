@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.pre-loader {
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.pre-loader .loader .image {
+  width: 20%;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.pre-loader .loader .image img {
+  width: 100%;
+}
+/*# sourceMappingURL=modal.css.map */
